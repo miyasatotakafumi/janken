@@ -8,15 +8,18 @@
     <title>ASKBOX</title>
 </head>
 <body>
-    <form action="write.php" method="post">
-    <h1>ASKBOX</h1>
-    <p>授業お疲れ様でした！授業が終了したら、今日感じた疑問や質問を一人一つ以上してください！次回の講座のなかで講師から質問に対して回答します！こちらの質問BOXは匿名です！</p>
-    タイトル：<input type="text" name="title"><br>
-    質問内容：<textarea type="text" name="content" rows="4" cols="40"></textarea>
-    <input type="submit" value="送信">
-    </form>   
-
-<!-- 読み取り -->
+    <div class="head">
+        <form action="write.php" method="post">
+        <h1 class="header">質問BOX</h1>
+        <p class="p">『1人1つ以上の質問や疑問を投稿してね！』</p>
+        <p class="p">題名<br><input type="text" name="title" placeholder="題名" rows="16" ><br>
+        <p class="p">質問内容<br><textarea type="text" name="content" rows="8" cols="40" placeholder="質問内容や感じた疑問"></textarea><br>
+        <input type="submit" value="送信" class="submit">
+        </form>   
+    </div>
+<!-- 読み取り / 表示-->
+<div class="p">
+<h1 class="header">みんなの聞いてる質問</h1>
 <?php
 $file = fopen('data.txt','r');
 flock($file, LOCK_EX);
@@ -28,8 +31,7 @@ if($file){
 flock($file, LOCK_UN);
 fclose($file);
 ?>
-
-
+</div>
 </body>
 </html>
 

@@ -1,3 +1,56 @@
 body{
-    background-color: #ff6615;
+    background-color: #3B5998;
+}
+
+.head{
+    padding: 72px 0 104px 0;
+    padding-top: 72px;
+    padding-right: 0px;
+    padding-bottom: 104px;
+    padding-left: 0px;
+}
+
+.header{
+    padding-top: 6px;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica;
+
+}
+
+.p{
+    color: #ffffff;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 16px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+ 
+.p {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+
+.submit{
+        display       : inline-block;
+        border-radius : 5%;          /* 角丸       */
+        font-size     : 8pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 8px 6px;   /* 余白       */
+        background    : #ffffff;     /* 背景色     */
+        color         : #999999;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 0.9;         /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 3px 3px #666666;  /* 影の設定 */
+      }
+      .button:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        opacity       : 1;           /* カーソル時透明度 */
+      
 }
