@@ -7,7 +7,7 @@
     <p><a href="index.php">質問画面に戻る</p>
 
 <?php
-$str = date("Y-m-d H:i:s").$title."<br />".$content."<br />";
+$str = date("Y/m/01")."<br />".$title."<br />".$content."<br />";
 $file = fopen("data.txt","a");
 flock($file, LOCK_EX);
 fwrite($file,$str."\n");

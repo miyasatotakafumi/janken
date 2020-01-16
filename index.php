@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>匿名質問BOXくん</title>
+    <title>ASKBOX</title>
 </head>
 <body>
     <form action="write.php" method="post">
-    <h1>匿名質問BOXくん</h1>
-    <p>授業お疲れ様でした！質問を一人一つ以上してください！</p>
-    <p>次回の講座のなかで講師から質問に対して回答します！</p>
-    <p>こちらの質問BOXは匿名ですので、恥ずかしがらずに！</p>
-    タイトル：<input type="text" name="title">
-    質問内容：<input type="" name="content">
+    <h1>ASKBOX</h1>
+    <p>授業お疲れ様でした！授業が終了したら、今日感じた疑問や質問を一人一つ以上してください！次回の講座のなかで講師から質問に対して回答します！こちらの質問BOXは匿名です！</p>
+    タイトル：<input type="text" name="title"><br>
+    質問内容：<textarea type="text" name="content" rows="4" cols="40"></textarea>
     <input type="submit" value="送信">
     </form>   
 
