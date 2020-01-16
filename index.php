@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="askbox.css">
-    <title>ASKBOX</title>
+    <!-- ファビコン -->
+    <link rel="icon" href="favicon.ico">
+     <!-- スマホ用アイコン -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <title>質問BOX</title>
 </head>
 <body>
     <div class="head">
