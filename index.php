@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="askbox.css">
     <!-- ファビコン -->
-    <link rel="icon" href="favicon.ico">
-     <!-- スマホ用アイコン -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon">
     <title>質問BOX</title>
 </head>
 <body>
